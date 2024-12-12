@@ -7,7 +7,6 @@ export interface RootStackParamList {
 export type AppStackParamList = {
   dashboardTab: NavigatorScreenParams<DashboardBottomTabParamList>;
   onboarding: undefined;
-  dashboard: undefined;
 };
 
 export type DashboardBottomTabParamList = {
